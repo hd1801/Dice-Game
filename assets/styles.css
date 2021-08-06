@@ -45,7 +45,18 @@ footer{
     height: 150px;
 }
 .btn{
-    width: 100px;
-    height: 40px;
+    padding:0 7px;
+    width: 120px;
+    border:outset #232931 5px ;
+    background-color: #faf60f;
+    font-family: 'Lobster';
+    font-size: 2rem;
 }
+.btn:hover{
+    border-style:inset;
+    background-color: #faf60f;
+    
+
+}
+    
 
