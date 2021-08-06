@@ -10,7 +10,8 @@ body{
 h1{
     margin: 30px;
     font-family: 'Lobster', cursive;
-    text-shadow: 5px 0 #232931;
+    text-shadow: 7px 0 #232931;
+    letter-spacing: 12px;;
     font-size: 8rem;
     color: #faf60f;
 
@@ -41,8 +42,9 @@ footer{
     justify-content:space-around;
 }
 .dice{
+    margin:30px
     width: 50%x;
-    height: 150px;
+    height: auto;
 }
 .btn{
     padding:0 7px;
@@ -51,7 +53,14 @@ footer{
     background-color: #faf60f;
     font-family: 'Lobster';
     font-size: 2rem;
+    box-shadow: 2px #232931;
 }
+.btn:active {
+    background-color: #3e8e41;
+    box-shadow: 2px #232931;
+    transform: translateY(4px);
+  }
+  
 .btn:hover{
     border-style:inset;
     background-color: #faf60f;
