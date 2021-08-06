@@ -10,6 +10,7 @@ function throwDice(){
   } else {
       document.querySelector(".container h1").textContent="PLAYER 1 WINS!!";
   }
-}
+  document.querySelector(".btn").textContent="Try Again";
 
+}
 document.querySelector(".btn").addEventListener("click",throwDice);
