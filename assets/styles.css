@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(112, 26, 26);
+    background-color:rgba(18, 22, 36, 0.904);
     margin: 0;
     font-family: 'Indie Flower',cursive;
     font-size: 2rem;
@@ -10,18 +10,20 @@ body{
 h1{
     margin: 30px;
     font-family: 'Lobster', cursive;
-    text-shadow: 7px 0 #232931;
+    text-shadow: 7px 0 #440606;
     letter-spacing: 12px;;
-    font-size: 8rem;
+    font-size: 7rem;
     color: #faf60f;
 
 }
 
 img {
-    width: 80%;
+    width: 60%;
   }
   
 footer{
+    position: absolute;
+    bottom: 10px;
     color: #EEEEEE;
     padding: 5px;
     width:100%;
@@ -29,9 +31,9 @@ footer{
 }
 .container{
     width: 100%;
-    height:100vh;
+    height:70vh;
     display: flex;
-    justify-content:flex-start;
+    justify-content:space-around;
     flex-direction: column;
     align-items:center;
     
@@ -42,18 +44,18 @@ footer{
     justify-content:space-around;
 }
 .dice{
-    margin:30px
-    width: 50%x;
+    width: 20%;
     height: auto;
 }
 .btn{
     padding:0 7px;
     width: 120px;
-    border:outset #232931 5px ;
+    border:outset #440606 5px ;
+    border-radius: 7px;
     background-color: #faf60f;
     font-family: 'Lobster';
     font-size: 2rem;
-    box-shadow: 2px #232931;
+    box-shadow: 2px #440606;
 }
 .btn:active {
     background-color: #3e8e41;
@@ -63,8 +65,6 @@ footer{
   
 .btn:hover{
     border-style:inset;
-    background-color: #faf60f;
-    
 
 }
     
